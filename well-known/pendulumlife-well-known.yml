@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of https://pendulumlife.com/.well-known/*
+host: https://pendulumlife.com
+note: >-
+  pendulumlife.com is a Shopify-hosted direct-to-consumer storefront. The
+  openid-configuration below is Shopify's platform customer-account OIDC
+  discovery document (issuer https://shopify.com/authentication/...), not a
+  first-party Pendulum API. Captured because it returns 200 on the domain.
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: pendulumlife-openid-configuration.json
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404

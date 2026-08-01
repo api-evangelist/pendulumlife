@@ -1,7 +1,14 @@
 aid: pendulumlife
 name: Pendulumlife
-description: Pendulumlife is a company surfaced as a portfolio company of felicis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pendulum (pendulumlife.com) is a direct-to-consumer probiotics and metabolic-health
+  company founded by PhD scientists from Johns Hopkins, Harvard, Berkeley and Stanford.
+  It sells next-generation probiotic supplements such as Metabolic Daily, Akkermansia,
+  Glucose Control (a medical probiotic clinically shown to improve A1C in type 2 diabetes)
+  and Polyphenol Booster. Surfaced as a portfolio company of felicis and added to the API
+  Evangelist network for enrichment. Enrichment finding: the site is a Shopify-hosted
+  storefront and Pendulum publishes no first-party developer API, SDKs, or documentation;
+  the only machine surface is Shopify's platform customer-account OIDC discovery endpoint.
 url: https://raw.githubusercontent.com/api-evangelist/pendulumlife/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,29 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Probiotics
+- Consumer
+- Supplements
+- Metabolic Health
+- Ecommerce
+image: https://pendulumlife.com/cdn/shop/files/Pendulum_Logo_Registered_Petal_8e91b0c1-3451-4839-871e-b0b2612e30f3.png?v=1621028826
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,27 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pendulumlife-domain-security.yml
+- type: WellKnown
+  url: well-known/pendulumlife-well-known.yml
 - type: Website
   url: https://pendulumlife.com
+- type: Blog
+  url: https://pendulumlife.com/blogs/news
+- type: Support
+  url: https://pendulumlife.com/pages/contact-us
+- type: Pricing
+  url: https://pendulumlife.com/products
+- type: SignUp
+  url: https://pendulumlife.com/account/login
+- type: TermsOfService
+  url: https://pendulumlife.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://pendulumlife.com/policies/privacy-policy
+
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v1
