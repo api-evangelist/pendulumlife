@@ -40,7 +40,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Health
@@ -65,6 +65,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://pendulumlife.com/blogs/news.atom
+  type: BlogRSS
 - type: DomainSecurity
   url: security/pendulumlife-domain-security.yml
 - type: WellKnown
