@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/pendulumlife/integrations
+- https://n8n.io/integrations/pendulumlife/
+- https://composio.dev/toolkits/pendulumlife
+- https://monid.ai/tools/pendulumlife
+checked:
+- https://composio.dev/toolkits/pendulumlife
+- https://monid.ai/tools/pendulumlife
+- https://n8n.io/integrations/pendulumlife/
+- https://zapier.com/apps/pendulumlife/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
